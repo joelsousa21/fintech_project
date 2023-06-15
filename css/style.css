@@ -1,7 +1,23 @@
 h1 {
+    margin: 0px 0px 5px ;
+    border: 0px;
+    margin: 20px;
+    font-size: 45px;
     color:black;
     opacity: 70%;
     text-align: center;
+}
+
+.phase_welcome {
+    margin: 20px auto;
+    font-size: 5px;
+}
+
+p { 
+    padding: 10px;
+    font-size: 20px;
+    margin: 0px;
+    max-width: 800px;
 }
 
 img {
@@ -22,16 +38,25 @@ h2 {
 
 p {
     text-align: center;
+    margin: -30px 20px 0px;
 }
 
 button {
-    color: #10A139;
-    align-items: center;
-    width: 200px;
-    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+    margin: -10px 50px -10px;
+    background-color: #10A139;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
 }
 
 #id_cadastro {
+    width: 100%;
+    margin: 20px auto;
     color: #10A139;
-    font-size: 11px;
+    font-size: 20px;
+    text-align: center;
 }
