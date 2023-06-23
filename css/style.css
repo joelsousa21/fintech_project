@@ -1,3 +1,21 @@
+/* BODY'S CATEGORIES */
+
+/* sign up page */
+#sign_up {
+    background-color: #10A139;
+    color: #004615;
+}
+.box_head {
+    padding: 90% auto ;
+    border: 0px;
+    margin: 20px;
+    font-size: 45px;
+    color:black;
+    opacity: 66%;
+    text-align: center;
+    font-weight: 500;
+    
+}
 h1 {
     margin: 0px 0px 5px ;
     border: 0px;
@@ -9,11 +27,12 @@ h1 {
 }
 
 .phase_welcome {
+    border: #10A139;
     margin: 20px auto;
     font-size: 5px;
 }
 
-p { 
+.p_home { 
     padding: 10px;
     font-size: 20px;
     margin: 0px;
@@ -21,7 +40,7 @@ p {
 }
 
 img {
- min-width: 10px;
+    min-width: 10px;
  
 }
 
@@ -36,27 +55,73 @@ h2 {
     text-align: center;
 }
 
-p {
+p { 
+    padding: 20px ;
     text-align: center;
     margin: -30px 20px 0px;
 }
 
-button {
-    width: 400px;
+div a {
+    margin: 0px auto;
+    text-align: center;
     border-radius: 20px;
+    font-size: 30px;
+    padding: 10px;
+    width: 300px;
+    background-color: #10A139;
+    color: #fff;
+    text-decoration: none;
+}
+
+div a:hover {
+    background-color: #004615;
+    color: #fff;
+    /* border: #10A139; */
+    /* border-style: solid; */
+    /* margin: 0px auto; */
+    /* padding: 10px; */
+    width: 300px;
+    
+    
+}
+
+.login {
+    margin: 5px;
+    padding: 0px, 0px, 30px;
+}
+
+
+
+/* button {
+    height: 60px;
+    width: 300px;
+    /* padding-bottom: 20px; */
+    border-radius: 30px;
     border: none;
     margin: -10px 50px -10px;
     background-color: #10A139;
     color: white;
-    text-align: center;
-    font-size: 30px;
+    /* text-align: center; */
+    font-size: 30px; */
     
 }
 
-#id_cadastro {
-    width: 100%;
-    margin: 20px auto;
+/* .login {
+    width: 40%px;
+    margin: ;
     color: #10A139;
     font-size: 20px;
     text-align: center;
+} */
+
+@media (max-width: 375px) {
+    .container {
+    }
+    .box_head {
+        font-size: 6px;
 }
+}
+
+
+
+/* ----------------Login Page-------------------- */
