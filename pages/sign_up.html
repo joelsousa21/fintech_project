@@ -1,12 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-<link rel="stylesheet" href="../css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/style_green_pages.css" />
+  <script src="https://kit.fontawesome.com/77a15e389c.js" crossorigin="anonymous"></script>
 </head>
-<body id="sign_up">
-    <h1>Olá</h1>
+
+<body>
+  <div class="container_father">
+    <div class="login_box">
+      <!-- INICIO FIGMA -->
+      <div class="component-4">
+        <div class="ellipse-1"></div>
+        <svg class="mdi-user" width="97" height="113" viewBox="0 0 97 113" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_132_3)">
+            <path
+              d="M58.2623 7.71126C63.4033 7.71126 68.3337 9.88465 71.9689 13.7533C75.6041 17.622 77.6463 22.869 77.6463 28.3401C77.6463 33.8112 75.6041 39.0583 71.9689 42.9269C68.3337 46.7956 63.4033 48.969 58.2623 48.969C53.1214 48.969 48.191 46.7956 44.5558 42.9269C40.9206 39.0583 38.8784 33.8112 38.8784 28.3401C38.8784 22.869 40.9206 17.622 44.5558 13.7533C48.191 9.88465 53.1214 7.71126 58.2623 7.71126ZM58.2623 59.2834C79.6816 59.2834 97.0303 68.5148 97.0303 79.9122V90.2267H19.4944V79.9122C19.4944 68.5148 36.843 59.2834 58.2623 59.2834Z"
+              fill="#10A239" />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <!-- END FIGMA -->
+
+    <!-- FORM  -->
+    <div class="login_field">
+      <form class="sign_up">
+        <!-- E-MAIL -->
+
+        <div class="account">
+          <input type="text" class="e-mail" placeholder="E-mail" />
+        </div>
+
+        <!-- PASSWORD -->
+        <div>
+          <input required type="text" class="key" placeholder="Senha" />
+        </div>
+      </form>
+    </div>
+    <!-- REMEMBER-ME  -->
+
+    <div class="support">
+      <div class="remember">
+        <span><input type="checkbox" /></span>
+        <span>Lembrar Login</span>
+      </div>
+
+      <!-- FORGOT KEY  -->
+      <div class="forgot_key">
+        <a style="text-decoration: none; color: black; opacity: 80%; " href="#">Esqueci minha senha</a>
+      </div>
+    </div>
+
+    <!-- SIGN IN  -->
+    <div class="enter">
+      <a class="enter_2" href="#">Entrar</a>
+    </div>
+    <div class="register">
+      <p class="no_registered">Não tem conta? <strong>Registre-se</strong></p>
+    </div>
+
+
+
+    <!-- START FIGMA FACEBOOK E GOOGLE  -->
+
+    <!-- FACEBOOK ICON  -->
+    <div class="container_icons">
+      <div class="facebook_icon">
+        <a class="facebook_icon2" href="#">
+          <i class="fa-brands fa-square-facebook"></i>
+          Login com facebook
+        </a>
+      </div>
+
+      <!-- GOOGLE ICON  -->
+
+      <div class="google_icon">
+        <a class="google_icon2" href="#">
+          <i class="fa-brands fa-google" style="text-align: center;color: green;"></i>
+          Login com Google
+        </a>
+      </div>
+    </div>
+    <!-- END FIGMA FACEBOOK E GOOGLE  -->
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,183 @@
+html {
+  font-size: 16px;
+  max-width: 100%;
+  height: 90%;
+  margin: 20px 20px;
+}
+
+body {
+  background: #8dc4a4;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+.login_field {
+  position: relative;
+  width: 100%;
+  
+}
+
+.login_box {
+  display: grid;
+  justify-content: center;
+  margin: 40px auto;  
+}
+
+/* INPUT  */
+.e-mail {
+  margin: 7px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 300px;  
+}
+
+.key {
+  margin: 7px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  
+}
+
+::placeholder {
+  color: black;
+  opacity: 40%;
+  font-weight: 600;
+}
+
+.sign_up {
+  display: grid;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 300px;
+}
+
+.container_remember {
+  margin: -15px 3px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+
+.component-4 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center; 
+}
+
+.component-4 {
+  width: 140px;
+  height: 132px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.ellipse-1 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 140px;
+  height: 131.38px; 
+  left: 20.63px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(0.274deg) scale(1, 1);
+}
+
+.mdi-user {
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  left: 12.11px;
+  top: 15.15px;
+  overflow: visible;
+}
+
+.support {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 0 15px;
+}
+
+
+
+/* ENTER BUTTON  */
+.container_icons {
+  display: grid; 
+}
+
+.enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.enter_2 {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 7px;
+  width: 300px;
+  text-decoration: none;
+  background-color: #10A139;
+  color: #fff;
+}
+
+/* SIGN UP LINK  */
+.no_registered {
+  text-align: center;
+  font-size: 11px;
+  top: 10px;
+  color: #4C6857;
+}
+
+.register {
+  position: relative;
+  top: 7px;
+}
+/* BUTTON FACEBOOK  */
+.facebook_icon {
+  display: flex;
+  justify-content: center;  
+}
+
+.facebook_icon2 {
+  padding: 10px;
+  justify-content: center; 
+  text-align: center; 
+  background-color: #2D4486;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 300px;  
+  
+}
+
+/* BUTTON GOOGLE  */
+.google_icon {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.google_icon2 {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;  
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  width: 300px;
+}
