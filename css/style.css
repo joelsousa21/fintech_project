@@ -47,6 +47,7 @@ img {
 
 .sign_up:hover {
     background-color: #074b1a;
+    font-weight: 500;
     
 }
 
@@ -79,7 +80,7 @@ img {
     width: 100%;
    }
 
-   .sign_up {
+   /* .sign_up {
     width: 250px;
     padding: 4px;
     font-size: 25px;
@@ -88,7 +89,7 @@ img {
 
    .login {
     font-size: 15px;
-   }
+   } */
 }
 /* DESKTOP  */
 @media (min-width: 1280px) {
@@ -110,10 +111,11 @@ img {
 
    .sign_up {
     width: 250px;
-    padding: 0;
-    font-size: 25px;
-
+    padding: 5px;
+    font-size: 25px;    
    }
+
+   
 
    .login {
     font-size: 15px;
